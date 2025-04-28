@@ -59,6 +59,17 @@ const config: GatsbyConfig = {
         open: false,
       },
     },
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /assets/
+        }
+      }
+    },
   ].filter(Boolean) as Array<PluginRef>,
 }
 
