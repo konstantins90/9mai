@@ -12,10 +12,10 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
   <div>
     <Content sx={{ variant: `texts.bigger` }} speed={0.4} offset={offset} factor={factor}
         className="!justify-end">
-      <div className="flex bg-white rounded-md overflow-hidden">
+      <div className="flex flex-col md:flex-row bg-white rounded-md overflow-hidden">
         <div className="">
           <div
-            className="min-w-[400px] w-full h-full flex items-center text-white font-bold text-4xl py-10 px-10 pr-14 uppercase leading-tight"
+            className="md:min-w-[400px] w-full h-full flex items-center text-white font-bold text-xl md:text-4xl py-10 px-10 pr-14 uppercase leading-tight"
             style={{
               backgroundImage: `url(${BgImageSvg})`,
               backgroundSize: 'cover',

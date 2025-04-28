@@ -7,7 +7,7 @@ const Footer = () => {
 
   return (
     <Box as="footer" variant="footer">
-      Copyright &copy; {new Date().getFullYear()}. All rights reserved. <br />
+      Copyright &copy; {new Date().getFullYear()}. <br />
       <Link href="/impressum">Impressum</Link>
     </Box>
   )
