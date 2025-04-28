@@ -10,7 +10,7 @@ import Seo from "@lekoarts/gatsby-theme-cara/src/components/seo"
 import Content from "@lekoarts/gatsby-theme-cara/src/elements/content"
 import Inner from "@lekoarts/gatsby-theme-cara/src/elements/inner"
 
-const NotFound = (_props: PageProps) => (
+const Impressum = (_props: PageProps) => (
   <Layout>
     <Parallax pages={1}>
       <div>
@@ -31,6 +31,8 @@ const NotFound = (_props: PageProps) => (
               Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.<br />
               <br />
               Quelle: https://www.e-recht24.de/impressum-generator.html
+              <br /><br />
+              Go back to <Link to="/">homepage</Link>.
             </Themed.p>
           </Inner>
         </Content>
@@ -39,6 +41,6 @@ const NotFound = (_props: PageProps) => (
   </Layout>
 )
 
-export default NotFound
+export default Impressum
 
 export const Head: HeadFC = () => <Seo title="404 - Not Found" />
