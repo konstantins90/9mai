@@ -22,14 +22,14 @@ const Cara = () => (
         zIndex: -1,
       }}
     />
-    <Parallax pages={5}>
+    <Parallax pages={6}>
       <div className="absolute z-20 top-0 left-16 w-28 bg-white px-6 py-6 pt-10 rounded-b-md">
         <Logo id="home-logo" className="w-full h-auto" />
       </div>
       <Hero offset={0} factor={1} />
       <Projects offset={1} factor={2} />
-      <About offset={3} factor={1} />
-      <Contact offset={4} factor={1} />
+      <About offset={3} factor={2} />
+      <Contact offset={5} factor={1} />
     </Parallax>
   </Layout>
 )
