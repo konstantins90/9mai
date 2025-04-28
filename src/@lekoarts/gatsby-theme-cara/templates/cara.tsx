@@ -17,7 +17,7 @@ const Cara = () => (
       alt="Background"
       layout="constrained"
       objectFit="cover"
-      className="fixed w-full h-screen"
+      className="!fixed w-full h-screen"
       style={{
         zIndex: -1,
       }}
